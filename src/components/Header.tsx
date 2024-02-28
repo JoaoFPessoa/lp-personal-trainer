@@ -8,7 +8,7 @@ export default function Header() {
         <div className="hidden md:flex justify-center items-center">
           <h1 className="text-xl font-bold text-">Renan Guimarães</h1>
         </div>
-        <div className="px-2 md:px-0 w-full md:w-[40%] ">
+        <div className="px-2 md:px-0 w-full md:w-[50%] ">
           <Navbar />
         </div>
       </header>
