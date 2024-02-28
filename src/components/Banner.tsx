@@ -19,7 +19,7 @@ export default function Banner() {
   }, []);
 
   return (
-    <div className="relative w-full rounded-2xl overflow-hidden h-[512px]">
+    <div className="relative w-full rounded-2xl overflow-hidden h-[450px] md:h-[512px]">
       <div className="absolute inset-0 overflow-hidden">
         <div
           style={{
