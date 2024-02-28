@@ -2,7 +2,8 @@ import { Lexend } from "next/font/google";
 import Header from "@/components/Header";
 import Banner from "@/components/Banner";
 import Services from "@/components/Sections/Services";
-import Testimonials from "@/components/Testimonials";
+import Testimonials from "@/components/Sections/Testimonials";
+import Contact from "@/components/Sections/Contact";
 
 const lexend = Lexend({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function Home() {
         <Banner />
         <Services />
         <Testimonials />
+        <Contact />
       </div>
     </main>
   );
