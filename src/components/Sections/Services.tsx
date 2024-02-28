@@ -25,13 +25,13 @@ export default function Services() {
         />
         <ImageCard
           image={TrainingImage2}
-          title="Treino de força"
-          text="Melhore sua definição muscular, força e resistência com um programa personalizado de treinamento de força."
+          title="Treino de resistência"
+          text="Melhore sua saúde cardiovascular, resistência e reduza a gordura corporal ecom treinos personalizados."
         />
         <ImageCard
           image={TrainingImage3}
-          title="Treino de força"
-          text="Melhore sua definição muscular, força e resistência com um programa personalizado de treinamento de força."
+          title="Treino de flexibilidade"
+          text="Aumente sua flexibilidade, equilíbrio e mobilidade com sessões de treinamento de flexibilidade personalizadas."
         />
       </div>
     </div>
