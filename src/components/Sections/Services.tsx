@@ -1,5 +1,8 @@
 import ImageCard from "../ImageAndText";
-import TrainingImage from "../../../public/training-1.png";
+import TrainingImage from "../../../public/training-1.svg";
+import TrainingImage2 from "../../../public/training-2.svg";
+import TrainingImage3 from "../../../public/training-3.svg";
+
 export default function Services() {
   return (
     <div className="gap-3 flex flex-col">
@@ -16,17 +19,12 @@ export default function Services() {
           text="Melhore sua definição muscular, força e resistência com um programa personalizado de treinamento de força."
         />
         <ImageCard
-          image={TrainingImage}
+          image={TrainingImage2}
           title="Treino de força"
           text="Melhore sua definição muscular, força e resistência com um programa personalizado de treinamento de força."
         />
         <ImageCard
-          image={TrainingImage}
-          title="Treino de força"
-          text="Melhore sua definição muscular, força e resistência com um programa personalizado de treinamento de força."
-        />
-        <ImageCard
-          image={TrainingImage}
+          image={TrainingImage3}
           title="Treino de força"
           text="Melhore sua definição muscular, força e resistência com um programa personalizado de treinamento de força."
         />
