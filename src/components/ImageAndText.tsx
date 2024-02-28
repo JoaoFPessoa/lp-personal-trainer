@@ -11,8 +11,8 @@ export default function ImageCard({ image, title, text }: Props) {
     <div className="">
       <div className="">
         <Image
-          width={400}
-          height={400}
+          width={450}
+          height={450}
           className="rounded-t-2xl"
           alt=""
           src={image}
